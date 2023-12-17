@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./ZeTable.css";
+import "./ZeTable.css";
 
 interface Column {
   header: string;
@@ -72,9 +72,9 @@ const ZeTable: React.FC<CustomTableProps> = ({
 
   return (
     <div
-      className={`custom-table-container  customTableContainer"
-    ${scrollable ? scrollable : ""}
-    `}
+      className={`custom-table-container  customTableContainer${
+        scrollable ? scrollable : ""
+      }`}
     >
       <table className={`custom-table card-table  cardTable`}>
         <thead className={`${scrollable ? "sticky" : ""}`}>

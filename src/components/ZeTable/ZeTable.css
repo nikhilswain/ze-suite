@@ -2,6 +2,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 15px 0;
+  background-color: redr;
 }
 
 table th,
@@ -13,12 +14,12 @@ table td {
 
 /* table th {
   background-color: #f2f2f2;
-} */
+}
 
-/* table tr:nth-child(even) {
+table tr:nth-child(even) {
   background-color: #f2f2f2;
-} */
+}
 
-/* table tr:hover {
+table tr:hover {
   background-color: #ddd;
 } */
